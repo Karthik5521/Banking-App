@@ -42,7 +42,7 @@ public class AccountController {
     @DeleteMapping("/admin/{id}")
     public ResponseEntity<String> deleteAccount(@PathVariable Long id) {
         accountService.deleteAccount(id);
-        return ResponseEntity.ok("Account is deleted");
+        return ResponseEntity.ok("Account is now  deleted");
     }
 
 
